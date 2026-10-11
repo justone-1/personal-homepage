@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="陈林胜的个人主页。深圳大学人工智能方向研一学生，关注强化学习，分享开发项目与学习经历。">
+  <meta name="theme-color" content="#f7f8fa">
+  <title>陈林胜 · 学习、生活与一点好奇心</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2321385b'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='36' fill='white' font-family='serif'%3EC%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="editorial.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="陈林胜，返回首页"><span class="brand-mark">C<span>L.</span></span><span>陈林胜<span class="brand-caption">A PERSONAL JOURNAL</span></span></a>
+      <button class="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false" aria-label="打开导航菜单"><span></span><span></span></button>
+      <nav id="navigation" aria-label="主导航"><a href="#about">关于我</a><a href="#work">项目与经历</a><a href="#interests">学习方向</a><a class="nav-contact" href="#contact">打个招呼 <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="intro-line"></span> HELLO, NICE TO MEET YOU</p>
+        <h1 id="hero-title">陈林胜<span class="english-name">CHEN LINSHENG</span></h1>
+        <h2 class="hero-headline">在学习里探索，<br>在生活里<span class="serif-accent">积累。</span></h2>
+        <p class="hero-description">深圳大学 · 人工智能方向 · 研一<br>正在学习强化学习，也喜欢运动和听歌。<br>这里记录一些做过的事，和还想继续探索的方向。</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">翻翻我的经历 <span aria-hidden="true">↗</span></a><a class="text-link" href="#contact">一起聊聊 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-footnote"><span>LEARN / BUILD / LIVE</span><a href="#about">往下看看 <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <figure class="hero-portrait">
+        <span class="portrait-rule" aria-hidden="true"></span>
+        <div class="portrait-frame"><img class="portrait-photo" src="assets/chen-graduation-web.jpg" width="1000" height="1267" alt="陈林胜穿着学士服、面向镜头的毕业生活照" fetchpriority="high"></div>
+        <figcaption><span>01 / A MOMENT IN LIFE</span><span>记录一个新的起点。</span></figcaption>
+        <span class="portrait-sideword" aria-hidden="true">STAY CURIOUS.</span>
+      </figure>
+    </section>
+    <div class="identity-strip container"><span><small>NOW AT</small> 深圳大学</span><span><small>STUDYING</small> 人工智能</span><span><small>EXPLORING</small> 强化学习</span><span><small>OFFLINE</small> 运动 · 听歌</span></div>
+    <section class="section container about" id="about" aria-labelledby="about-title">
+      <div class="section-index"><span>01 / ABOUT ME</span><span>先认识一下</span></div>
+      <div class="about-main">
+        <div class="about-copy" data-reveal>
+          <h2 class="about-headline" id="about-title"><button class="about-title-link" data-about-view="study" type="button" aria-label="看看学习中的我" aria-controls="about-panel-study" aria-pressed="false" disabled>学习</button>之外，<br>也有<button class="about-title-link about-life-word" data-about-view="life" type="button" aria-label="看看生活中的我" aria-controls="about-panel-life" aria-pressed="false" disabled>生活<span class="about-spark" aria-hidden="true">✳</span></button>。</h2>
+          <p class="about-invitation" hidden>点点「学习」或「生活」，换个角度认识我。<span aria-hidden="true">↗</span></p>
+          <div class="about-tabs" role="tablist" aria-label="换个角度认识陈林胜" hidden>
+            <button id="about-tab-overview" role="tab" data-about-view="overview" type="button" aria-controls="about-panel-overview" aria-selected="true" tabindex="0"><span aria-hidden="true">01</span> 认识一下</button>
+            <button id="about-tab-study" role="tab" data-about-view="study" type="button" aria-controls="about-panel-study" aria-selected="false" tabindex="-1"><span aria-hidden="true">02</span> 学习的我</button>
+            <button id="about-tab-life" role="tab" data-about-view="life" type="button" aria-controls="about-panel-life" aria-selected="false" tabindex="-1"><span aria-hidden="true">03</span> 生活的我</button>
+          </div>
+          <div class="about-body">
+            <div class="about-panel" id="about-panel-overview" role="tabpanel" aria-labelledby="about-tab-overview" tabindex="0"><p>你好，我是<strong>林胜</strong>，现在在<strong>深圳大学读研一</strong>，学习人工智能，关注强化学习。对我来说，学一个新东西最有意思的部分，是慢慢弄明白它，再试着用起来。</p><p>本科在五邑大学学习电子信息工程（信息安全），做过仓库管理项目，也在机器人自动化企业实习过。学习之外，我喜欢<strong>运动和听歌</strong>。很高兴你来这里认识我。</p></div>
+            <div class="about-panel" id="about-panel-study" role="tabpanel" aria-labelledby="about-tab-study" tabindex="0" hidden><p>我目前在深圳大学读研一，学习人工智能，关注<strong>强化学习</strong>。我想继续弄明白：智能体如何通过与环境交互，慢慢学会做决策？</p><p>本科时，我做过仓库管理项目，也参与过 AGV 平台插件开发和 Python 编程竞赛。我喜欢边理解、边动手，把学到的东西试着用起来。</p></div>
+            <div class="about-panel" id="about-panel-life" role="tabpanel" aria-labelledby="about-tab-life" tabindex="0" hidden><p>离开屏幕后，我喜欢<strong>运动</strong>，也喜欢<strong>听歌</strong>。动一动，或者听一首歌，是我给日常换个节奏的方式。</p><p>学习、项目和竞赛是一部分，生活里还有许多轻松的小片段。愿意留一点时间给喜欢的事，也很高兴认识同样好奇的你。</p></div>
+          </div>
+          <div class="education-list"><div><span>现在</span><strong>深圳大学<small>人工智能方向 · 研一</small></strong></div><div><span>本科</span><strong>五邑大学<small>电子信息工程（信息安全）</small></strong></div></div>
+        </div>
+        <figure class="life-photo about-photo" data-about-mode="overview" data-reveal><span class="about-photo-note" aria-hidden="true">生活的一页</span><div class="football-frame"><img class="about-photo-life" src="assets/chen-football-web.jpg" width="960" height="1200" alt="陈林胜在球场踢足球的生活照" loading="lazy"><img class="about-photo-study" src="assets/chen-graduation-web.jpg" width="1000" height="1267" alt="陈林胜穿学士服的毕业生活照" loading="lazy" aria-hidden="true"></div><figcaption><span id="about-photo-label">02 / OFF THE SCREEN</span><span id="about-photo-caption">运动、听歌，让日常有自己的节奏。</span></figcaption></figure>
+      </div>
+    </section>
+    <section class="work-section" id="work" aria-labelledby="work-title"><div class="container section">
+      <div class="section-heading" data-reveal><div><p class="eyebrow">02 / SELECTED EXPERIENCE</p><h2 id="work-title">做过的事，<span class="serif-accent">慢慢积累。</span></h2></div><p class="section-aside">项目实践、实习和竞赛。<br>每一段经历，都留下了一点收获。</p></div>
+      <div class="project-grid">
+        <article class="project-card" data-reveal>
+          <div class="project-visual warehouse"><span class="visual-caption">INTERFACE STUDY / 概念示意</span><div class="dashboard" aria-hidden="true"><div class="dash-sidebar"><b>W.</b><i></i><i></i><i></i></div><div class="dash-content"><div class="dash-top"><span>仓储概览</span><span>•••</span></div><div class="dash-metrics"><div><small>库存管理</small><b>INVENTORY</b></div><div><small>数据可视化</small><b>INSIGHTS</b></div></div><div class="dash-chart"><span style="--bar:34%"></span><span style="--bar:58%"></span><span style="--bar:43%"></span><span style="--bar:76%"></span><span style="--bar:60%"></span><span style="--bar:89%"></span><span style="--bar:72%"></span></div><div class="dash-lines"><i></i><i></i></div></div></div><span class="visual-number" aria-hidden="true">01</span><button class="project-cover" data-project="warehouse" type="button" aria-label="查看仓库管理系统详情，封面为概念示意" aria-haspopup="dialog"><span class="cover-action">查看详情 <span aria-hidden="true">↗</span></span></button></div>
+          <div class="project-copy"><div class="project-meta"><span>01 / 开发项目</span><span>2023.11 — 2024.09</span></div><h3>仓库管理系统</h3><p>面向仓储管理需求，参与前端开发与交互优化，将库存信息转化为清晰可读的数据视图。</p><div class="project-tags"><span>Vue.js</span><span>ECharts</span><span>Axios</span></div><button class="project-open" data-project="warehouse" type="button" aria-label="查看仓库管理系统项目经历" aria-haspopup="dialog">查看项目经历 <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="project-card" data-reveal>
+          <div class="project-visual agv"><span class="visual-caption">SYSTEM STUDY / 概念示意</span><svg viewBox="0 0 360 235" aria-hidden="true"><defs><pattern id="map-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#dae3f4" stroke-opacity=".1"/></pattern></defs><rect width="360" height="235" fill="url(#map-grid)"/><g fill="#3b5275" stroke="#738cab"><rect x="43" y="47" width="65" height="43" rx="3"/><rect x="143" y="47" width="65" height="43" rx="3"/><rect x="243" y="47" width="65" height="43" rx="3"/><rect x="43" y="145" width="65" height="43" rx="3"/><rect x="143" y="145" width="65" height="43" rx="3"/><rect x="243" y="145" width="65" height="43" rx="3"/></g><path class="agv-route" d="M27 119H228V105H324V203H217" fill="none" stroke="#bccff0" stroke-width="3" stroke-dasharray="7 5"/><circle cx="27" cy="119" r="6" fill="#eef3fc"/><circle cx="217" cy="203" r="6" fill="#eef3fc"/><g transform="translate(175 106)"><g class="agv-robot"><rect width="28" height="24" rx="7" fill="#dce7f9"/><rect x="6" y="6" width="16" height="10" rx="3" fill="#4c6990"/><circle cx="5" cy="24" r="3" fill="#91add6"/><circle cx="23" cy="24" r="3" fill="#91add6"/></g></g></svg><span class="map-label">AUTONOMOUS / CONNECTED</span><span class="visual-number" aria-hidden="true">02</span><button class="project-cover" data-project="agv" type="button" aria-label="查看 AGV 可视化任务调度平台详情，封面为概念示意" aria-haspopup="dialog"><span class="cover-action">查看详情 <span aria-hidden="true">↗</span></span></button></div>
+          <div class="project-copy"><div class="project-meta"><span>02 / 企业实习</span><span>2025.07 — 2025.08</span></div><h3>AGV 可视化<br>任务调度平台</h3><p>在机器人自动化场景中参与平台插件功能开发，连接前端交互与后端信息，让任务信息更有条理。</p><div class="project-tags"><span>前后端通信</span><span>信息管理</span><span>交互开发</span></div><button class="project-open" data-project="agv" type="button" aria-label="查看 AGV 平台实习经历" aria-haspopup="dialog">查看实习经历 <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="project-card" data-reveal>
+          <div class="project-visual competition"><span class="visual-caption">LEARNING / 竞赛经历</span><div class="competition-seal"><span>LANQIAO CUP</span><strong>Python</strong><small>省级二等奖 · 2025</small></div><span class="visual-number" aria-hidden="true">03</span><button class="project-cover" data-project="learning" type="button" aria-label="查看蓝桥杯 Python 竞赛经历详情" aria-haspopup="dialog"><span class="cover-action">查看详情 <span aria-hidden="true">↗</span></span></button></div>
+          <div class="project-copy"><div class="project-meta"><span>03 / 竞赛与学习</span><span>2025</span></div><h3>蓝桥杯 Python 竞赛</h3><p>参加第十六届蓝桥杯 Python B 组大赛，获得省级二等奖。以编程竞赛积累问题求解的实践经历。</p><div class="project-tags"><span>Python</span><span>编程竞赛</span><span>问题求解</span></div><button class="project-open" data-project="learning" type="button" aria-label="查看蓝桥杯 Python 学习经历" aria-haspopup="dialog">查看学习经历 <span aria-hidden="true">↗</span></button></div>
+        </article>
+      </div><p class="work-note">以上为个人真实经历；前两个项目封面为原创概念示意，并非实际系统截图。</p>
+    </div></section>
+    <section class="section container interests" id="interests" aria-labelledby="interests-title">
+      <div class="interests-intro" data-reveal><p class="eyebrow">03 / LEARNING & TOOLKIT</p><h2 id="interests-title">还在学习，<br>也在<span class="serif-accent">继续尝试。</span></h2><p>已有的经验是起点，<br>想弄明白的问题，还在不断增加。</p><div class="learning-note"><span>CURRENT FOCUS</span><strong>Reinforcement<br><i>Learning.</i></strong><small>强化学习 · 学习中</small></div></div>
+      <div class="skill-list"><div class="skill-row"><span class="skill-number">01</span><div><h3>人工智能 & 强化学习</h3><p>当前学习方向，关注智能体如何通过与环境交互学习决策。</p><div class="skill-tags"><span>人工智能</span><span>强化学习</span><span class="learning-tag">学习中</span></div></div><span class="skill-arrow" aria-hidden="true">↗</span></div><div class="skill-row"><span class="skill-number">02</span><div><h3>前端开发 & 数据表达</h3><p>在实际项目中使用 Vue.js 开发界面，以 ECharts 展示数据，并通过 Axios 连接接口。</p><div class="skill-tags"><span>Vue.js</span><span>ECharts</span><span>Axios</span></div></div><span class="skill-arrow" aria-hidden="true">↗</span></div><div class="skill-row"><span class="skill-number">03</span><div><h3>编程 & 问题求解</h3><p>学习 Python、Java 与数据结构，参加算法、数据分析和数学建模相关竞赛。</p><div class="skill-tags"><span>Python</span><span>Java</span><span>数据结构</span></div></div><span class="skill-arrow" aria-hidden="true">↗</span></div></div>
+    </section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><div data-reveal><p class="eyebrow">04 / SAY HELLO</p><h2 id="contact-title">很高兴，<br>在这里<span class="serif-accent">认识你。</span></h2><p>关于学习、项目，或最近听到的一首歌，<br>都可以来聊聊。</p></div><div class="contact-card" data-reveal><span class="contact-label">DROP ME A LINE</span><a class="email-link" href="mailto:2382390225@qq.com">2382390225@qq.com <span aria-hidden="true">↗</span></a><div class="contact-bottom"><span>陈林胜 · 深圳大学</span><button id="copy-email" type="button">复制邮箱 <span aria-hidden="true">⧉</span></button></div><p id="copy-status" role="status" aria-live="polite"></p></div></div></section>
+  </main>
+  <footer class="container site-footer"><a class="footer-name" href="#home">陈林胜 <span>CHEN LINSHENG</span></a><span>学习、生活与一点好奇心。</span><a href="#home">回到顶部 ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" type="button" aria-label="关闭项目详情">×</button><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p class="dialog-period" id="dialog-period"></p><p id="dialog-description"></p><h3>我的参与</h3><ul id="dialog-contributions"></ul><p class="dialog-note" id="dialog-note"></p><button class="button button-dark dialog-done" type="button">返回主页 <span aria-hidden="true">↗</span></button></div></dialog>
+</body>
+</html>
